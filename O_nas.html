@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HoldRP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HoldRP - twój serwer RolePlay">
+    <meta name="keywords" content="RP, GTA, RolePlay">
+    <meta name="author" content="Mateo.txt#2626">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <meta name="theme-color" content="#f063cc">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/62dfbd028b.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="Strona_glowna.html" class="logo">HoldRP</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="Regulamin.html">Regulamin</a></li>
+            <li><a href="Squad.html">Squad</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="Podania.html">Podania</a></li>
+        </ul>
+    </header>
+    <div class="page">
+        <nav>
+            <ul>
+                <li><a href="Strona_glowna.html" class="navlink">Home</a></li>
+                <li><a href="Regulamin.html" class="navlink">Regulamin</a></li>
+                <li><a href="Squad.html" class="navlink">SQUAD</a></li>
+                <li><a href="#" class="navlink aktywny">O NAS</a></li>
+                <li><a href="Podania.html" class="navlink">Podania</a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+
+
+
+
+
+
+        <div class="regulamin">
+
+            <!-- h2 glowny napis-->
+            <h2 class="space">O nas</h2>
+            <br>
+            <p style="text-transform: none;">
+                Zjednoczyliśmy się po to by zebrać community zgranych graczy, oraz zapewnić przyjazne miejsce do gry w GTA V. Jesteśmy serwerem który posiada zgraną i lubianą administrację w społeczności FiveM. Jednym z dwóch właścicieli jest Porke Porkisere. Jest to osoba z dużym stażem prowadzenia serwerów RolePlay. W głównej mierze zajmuję się prowadzeniem community naszego serwera. Z łatwością nawiązuje dobre relacje pomiędzy graczami. Jest osobą wyrozumiałą, oraz pomocną. Drugim właścicielem serwera jest Koen, jest to osoba która zajmuję się serwerem od strony technicznej. Posiada wysokie umiejętności deweloperskie, oraz potrafi sprostać wyzwaniom graczy. <br>
+
+                <br>Na serwerze istnieje zarząd w skład którego wchodzą:Zioło#0002, HeadAdmin Pan Paweł#2619, Administrator AlteZ#1245 oraz Administrator Sienkiewicz#2863. Mają oni za zadanie sprawować opiekę nad serwerem, oraz systematycznie poprawiać jakość rozgrywki. Dzięki ich obecności właściciele mają możliwość konsultacji w sprawach rozwoju serwera
+
+
+            </p>
+            <!-- <p> tekst -->
+            <div class="space"></div>
+        </div>
+
+
+
+
+
+        <script language="JavaScript">
+            window.onload = function() {
+                document.addEventListener("contextmenu", function(e) {
+                    e.preventDefault();
+                }, false);
+                document.addEventListener("keydown", function(e) {
+
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                        disabledEvent(e);
+                    }
+
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                        disabledEvent(e);
+                    }
+
+                    if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                        disabledEvent(e);
+                    }
+
+                    if (e.ctrlKey && e.keyCode == 85) {
+                        disabledEvent(e);
+                    }
+
+                    if (event.keyCode == 123) {
+                        disabledEvent(e);
+                    }
+                }, false);
+
+                function disabledEvent(e) {
+                    if (e.stopPropagation) {
+                        e.stopPropagation();
+                    } else if (window.event) {
+                        window.event.cancelBubble = true;
+                    }
+                    e.preventDefault();
+                    return false;
+                }
+            }
+
+        </script>
+
+</body>
+
+</html>

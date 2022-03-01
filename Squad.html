@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HoldRP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HoldRP - twój serwer RolePlay">
+    <meta name="keywords" content="RP, GTA, RolePlay">
+    <meta name="author" content="Mateo.txt#2626">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <meta name="theme-color" content="#f063cc">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/62dfbd028b.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header class="header">
+        <a href="Strona_glowna.html" class="logo">HoldRP</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="Regulamin.html">Regulamin</a></li>
+            <li><a href="#">Squad</a></li>
+            <li><a href="O_nas.html">O nas</a></li>
+            <li><a href="Podania.html">Podania</a></li>
+        </ul>
+    </header>
+    <div class="page">
+        <nav>
+            <ul>
+                <li><a href="Strona_glowna.html" class="navlink">Home</a></li>
+                <li><a href="Regulamin.html" class="navlink">Regulamin</a></li>
+                <li><a href="#" class="navlink aktywny">SQUAD</a></li>
+                <li><a href="O_nas.html" class="navlink">O NAS</a></li>
+                <li><a href="Podania.html" class="navlink">Podania</a></li>
+            </ul>
+        </nav>
+
+        <div class="logosq">
+            <img src="assets/img/logo.png">
+        </div>
+
+        <div class="sqwrap">
+            <div class="stuff">
+                <img src="assets/img/avatar/porke.png">
+                <h1>Właściciel</h1>
+                <p>Porke Porkisere#7145</p>
+            </div>
+            <div class="stuff">
+                <img src="assets/img/avatar/Koen.jpg">
+                <h1>Właściciel</h1>
+                <p>Koen#9907</p>
+            </div>
+        </div>
+
+
+        <div class="sqwrap">
+            <div class="stuff">
+                <img src="assets/img/avatar/ziolo.gif">
+                <h1>Zarząd</h1>
+                <p>Zioło#6969</p>
+            </div>
+            <div class="stuff">
+                <img src="assets/img/avatar/altez.png">
+                <h1>Admin</h1>
+                <p>AlteZ#1245</p>
+            </div>
+            <div class="stuff">
+                <img src="assets/img/avatar/sienkiewicz.png">
+                <h1>Admin</h1>
+                <p>Sienkiewicz#2863</p>
+            </div>
+            <div class="stuff">
+                <img src="assets/img/avatar/pawel.png">
+                <h1>Head Admin</h1>
+                <p>Pan Paweł#2619</p>
+            </div>
+        </div>
+        <div class="sqwrap spacesq">
+            <div class="stuff">
+                <img src="assets/img/avatar/patrix.png">
+                <h1>Moderator</h1>
+                <p>Patrix0403#7339</p>
+            </div>
+            <div class="stuff">
+                <img src="assets/img/avatar/veey.png">
+                <h1>Moderator</h1>
+                <p>𝕧 𝕖 𝕖 𝕪.#2484</p>
+            </div>
+            <div class="stuff">
+                <img src="assets/img/avatar/autobusik.png">
+                <h1>Moderator</h1>
+                <p>Autobusik#4050</p>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="stuff2">
+            <img src="assets/img/avatar/porke.png">
+            <h1>Właściciel</h1>
+            <p>Porke Porkisere#7145</p>
+        </div>
+        <div class="stuff2">
+            <img src="assets/img/avatar/Koen.jpg">
+            <h1>Właściciel</h1>
+            <p>Koen#9907</p>
+        </div>
+
+        <div class="stuff2">
+            <img src="assets/img/avatar/Ziolo.gif">
+            <h1>Zarząd</h1>
+            <p>Zioło#0002</p>
+        </div>
+        <div class="stuff2">
+            <img src="assets/img/avatar/vito.png">
+            <h1>Zarząd</h1>
+            <p>VeTooo#4449</p>
+        </div>
+
+        <div class="stuff2">
+            <img src="assets/img/avatar/lumino.png">
+            <h1>Moderator</h1>
+            <p>WarWickPL#7298</p>
+        </div>
+        <div class="stuff2">
+            <img src="assets/img/avatar/kamiq.png">
+            <h1>Przyjaciel Administracji</h1>
+            <p>KamiQ#6530</p>
+        </div>
+        <div class="stuff2">
+            <img src="assets/img/avatar/veey.webp">
+            <h1>Przyjaciel Administracji</h1>
+            <p>𝕧 𝕖 𝕖 𝕪.#2484</p>
+        </div>
+        <div class="stuff2">
+            <img src="assets/img/avatar/norge.png">
+            <h1>Przyjaciel Administracji</h1>
+            <p>Norge2021#4381</p>
+        </div>
+
+
+
+
+        <script language="JavaScript">
+            window.onload = function() {
+                document.addEventListener("contextmenu", function(e) {
+                    e.preventDefault();
+                }, false);
+                document.addEventListener("keydown", function(e) {
+
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+                        disabledEvent(e);
+                    }
+
+                    if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+                        disabledEvent(e);
+                    }
+
+                    if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+                        disabledEvent(e);
+                    }
+
+                    if (e.ctrlKey && e.keyCode == 85) {
+                        disabledEvent(e);
+                    }
+
+                    if (event.keyCode == 123) {
+                        disabledEvent(e);
+                    }
+                }, false);
+
+                function disabledEvent(e) {
+                    if (e.stopPropagation) {
+                        e.stopPropagation();
+                    } else if (window.event) {
+                        window.event.cancelBubble = true;
+                    }
+                    e.preventDefault();
+                    return false;
+                }
+            }
+
+        </script>
+
+</body>
+
+</html>
